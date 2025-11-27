@@ -35,16 +35,31 @@ video {
 	le tue regole, se necessario. */
 	display: flex;
 	padding: 0 16px;
-	color: #fff;
+	
+	
 	
 }
 .header-items {
 	display: flex;
-	align-items: center;
+	align-items: ;
 	gap: 16px;
+}
+.first-item {
+	color: #fff;
+	opacity: 40%;
+}
+.second-item {
+	color: #fff;
+	opacity: 40%;
+}
+.third-item {
+	color: #fff;
+	font-weight: bold;
+
 }
 .active-link {
 	font-weight: bold;
+	opacity: 100%;
 }
 .active-underline {
 	position: absolute;
@@ -53,6 +68,17 @@ video {
 	width: 25px;
 	height: 3px;
 	background-color: #fff;
+}
+.reel-header .bi-play-btn {
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+}
+.reel-header .bi-search {
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	
 }
 
 /* Footer */
