@@ -31,9 +31,12 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
-
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	display: flex;
+	padding: 0 16px;
+	color: #fff;
+	
 }
 
 /* Footer */
