@@ -91,7 +91,38 @@ footer {
 	color: #fff;
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	padding: 20px 0;
+	background-color: black;
 }
+
+.bottom-interactions {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.bottom-interactions i {
+	display: block;
+	
+}
+.pulsante-plus {
+	font-size: 40px;
+	transform: rotate(90deg);
+	border-top: 1px solid greenyellow;
+	filter: blur(1px);
+	border-bottom:1px solid fuchsia;
+}
+.button-2 {
+	opacity: 40%;
+}
+.button-3 {
+	opacity: 40%;
+}
+.button-4 {
+	opacity: 40%;
+}
+
+
 
 /* Sidebar */
 .sidebar {
@@ -99,10 +130,42 @@ footer {
 	position: absolute;
 	right: 0;
 	top: 40%;
-
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 15px;
+	height: 50%;
+	top: 30%;
+	color: #fff;
 }
+.sidebar img {
+	width: 60px;
+	border-radius: 60px;
+		
+}
+.sidebar .bi-plus-circle-fill {
+	
+	color: rgb(249, 7, 7);
+	
+}
+.sidebar-group-2 .bi-heart-fill {
+	font-size: 28px;
+	font-weight: bold;
+}
+.sidebar-group-3 .bi-chat-dots {
+	font-size: 32px;
+	font-weight: bold;
+}
+.sidebar-group-4 .bi-bookmark-fill {
+	font-size: 30px;
+}
+.sidebar-group-5 .bi-sign-turn-slight-right {
+	font-size: 35px;
+}
+
 
 /* ---------------------
 Regole per evidenziare i blocchi 
